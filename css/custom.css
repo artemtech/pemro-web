@@ -1,0 +1,43 @@
+*{
+  /*border: 0.5px dashed red;*/
+}
+
+.container{
+  max-width: 800px;
+}
+
+.section{
+  padding-bottom: 22rem;
+/*   border: 0.5px dashed red; */
+/*   margin-bottom: -5%; */
+}
+
+.hero{
+  background-color: yellow;
+  background-image: url("../pemro1.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.konten {
+/*   position: relative; */
+  margin-top: 25%;
+  color: white;
+  padding: 1.5em 1.2em;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.info2{
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 3em 2em;
+/*   background-image: url("../pemro1.jpg"); */
+  background-blend-mode: multiply;
+}
+
+.konten2{
+  background-color: white;
+  box-shadow: grey 0px 0px 1.5em;
+  padding: 50px 0px;
+  margin-bottom: 30px;
+}
