@@ -32,24 +32,32 @@
 .konten2{
   margin-top:2%;
   background-color: white;
-  box-shadow: grey 0px 0px 1.5em;
+  box-shadow: grey 0px 0px 0.8em;
   padding: 50px 10px;
   margin-bottom: 30px;
+  border:10px solid #0F90CE; 
+  border-top:0;
+  border-right: 0;
+  border-left: 0;
 }
 
 .judul{
-  color: #666;
+  color: #555;
   content: "";
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.8px;
-  border-bottom: 3px groove #0FA0CE;
+  border-bottom: 3px solid #0FA0CE;
 }
 
 .konten2 .glyphicon{
   color: #0FA0CE;
 }
 
+.navbar{
+  display: none;
+}
+@media (min-width: 750px){
 .navbar{
   display: block;
   height: 6.5rem;
@@ -59,7 +67,7 @@
   z-index: 99;
 }
 
-.navbar > .container{ */
+.navbar > .container{
   width: 100%;
 }
 
@@ -79,7 +87,7 @@
 .navbar-link{
   text-decoration: none;
   font-weight: 600;
-  margin-right: 30px;
+  margin-right: 10px;
   line-height: 1.6;
   text-transform: uppercase;
   color: black;
@@ -93,3 +101,22 @@
   max-width: 48px;
   max-height: 48px;
 }
+}
+
+.footer{
+  background: #555;
+  color: white;
+  text-align: center;
+}
+
+.footer p{
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+
+.organisasi{
+  background: aquamarine;
+}
+
+.contactus{
+  background: yellowgreen;
